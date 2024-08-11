@@ -1,0 +1,38 @@
+header {
+    background: #fff url(/images/intro-bg.jpg) center no-repeat ;
+    background-size: cover;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .text-container {
+    z-index: 10;
+}
+
+header .roles {
+    font-family:'lora-regular';
+}
+.social {
+    z-index: 10;
+    bottom: 50px;
+}
+
+.Labout {
+    width: 250px;
+    height: 2px;
+    background: #CC005F;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+  }
